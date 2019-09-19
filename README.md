@@ -6,3 +6,6 @@ How to run:
 1. $ docker-compose up
 1. $ python producer.py - it should finish without errors in few seconds
 1. $ python consumer.py - it should print received data
+
+The same way you can use *_confluent files. They do the same, but through
+the confluent library
